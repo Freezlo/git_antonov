@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*# Зададим для тега Body цвет бэкграунда*/
+body {background-color: #F0FFFF!important;
+}
+
+
+.container {
+    margin-top: 30px;
+    width: 100%!important;
+    height: 100%;
+
+}
+
+
+
+
+
+/*# Для формы: цвет бэкграунда,цвет обводки, толщина и т.д*/
+form {
+    background: #F0FFFF;
+    border: 3px solid #363636;
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: #008080;
+    height: 550px;
+    width: 700px;
+    word-break:break-all;
+    /*white-space: pre;*/
+
+}
+
+
+#list {
+    width: 500px;
+    height: 450px;
+    float: left; /*Обтекание по правому краю*/
+    margin-right: 5%; /*Отступ справа */
+    background: ##c0c0c0;
+    color: #363636;
+    word-break:break-all;
+    text-align: left;
+    
+
+}
+/*# Цвет заголовка*/
+h1 {
+    color: #008080;
+    padding: 0 10px;
+} 
+
+h3 {
+    color: #008080;
+    padding: 0 10px;
+    
+} 
+
+
+
+
+
+ul {
+    padding: 0 10px;
+}
+ul li {
+    padding: 10px 10px;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: #008080;
+    background: #c0c0c0;
+    
+}
+
+
+
+/*.containerline{
+  padding: 10px 10px;
+    list-style: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: #008080;
+    background: #f08080;  
+    margin-right: 5%; 
+}*/
+
+
+.del{
+  padding: 10px 10px;
+    list-style: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: #008080;
+    background: #f08080;  
+    margin-right: 5%; /*Отступ справа */
+    height: 50px;
+    width: 12%;
+
+}
+
+.red{
+  padding: 10px 10px;
+    list-style: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: #008080;
+    background: #f08080;  
+    margin-right: 5%; /*Отступ справа */
+    height: 50px;
+    width: 12%;
+    
+}
+
+    
+
+
+
+a {
+
+color:#FF00FF;
+
+text-decoration:none
+
+}
+
+a:active {
+
+color:#FF0000;
+
+text-decoration:none
+
+}
+
+a:visited {
+
+color:#666666;
+
+text-decoration:none
+
+}
+
+a:hover {
+
+color:#339900;
+
+text-decoration: underline
+
+}
+
